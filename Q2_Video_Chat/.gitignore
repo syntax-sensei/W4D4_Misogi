@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Data files (large video/audio files)
+data/uploads/*.mp4
+data/uploads/*.avi
+data/uploads/*.mov
+data/uploads/*.mkv
+data/uploads/*.wmv
+data/uploads/*.flv
+data/uploads/*.webm
+data/uploads/*.m4v
+
+# Audio files
+data/audio/*.wav
+data/audio/*.mp3
+data/audio/*.aac
+data/audio/*.ogg
+data/audio/*.flac
+
+# Transcript files (can be large)
+data/transcripts/*.json
+
+# Sample lectures (large video files)
+sample_lectures/*.mp4
+sample_lectures/*.avi
+sample_lectures/*.mov
+sample_lectures/*.mkv
+sample_lectures/*.wmv
+sample_lectures/*.flv
+sample_lectures/*.webm
+sample_lectures/*.m4v
+
+# FFmpeg executables (large files, should be downloaded separately)
+ffmpeg/
+ffmpeg.exe
+ffprobe.exe
+ffplay.exe
+
+# Temporary files
+temp_ffmpeg/
+*.tmp
+*.temp
+*.log
+
+# Model files (if any are downloaded)
+*.model
+*.bin
+*.pkl
+*.pickle
+
+# Vector store files
+*.index
+*.faiss
+
+# OpenAI API keys and sensitive data
+api_keys.txt
+secrets.txt
+config.ini
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+
+# Keep .gitkeep files to maintain directory structure
+!data/uploads/.gitkeep
+!data/transcripts/.gitkeep
+!sample_lectures/.gitkeep 
